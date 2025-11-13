@@ -40,18 +40,6 @@ python app.py
 ```bash
 http://127.0.0.1:5000
 ```
-
-## Project Structure
-app.py                     # Flask app + routing
-pdf_parser.py              # GPT-powered text extraction & normalization
-tax_logic.py               # IRS standard deduction + bracket logic (2024)
-form1040_generator.py      # ReportLab 1040 PDF generator
-templates/
-    index.html             # File upload UI
-    result.html            # Tax summary + PDF preview
-uploads/                   # Temporary upload directory
-static/
-    output_1040.pdf        # Generated 1040 form
     
 ## Disclaimer
 This prototype is for demonstration purposes only. It is not an official tax filing tool, and the calculations are simplified.
