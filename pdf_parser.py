@@ -53,7 +53,7 @@ print("Has OPENAI_API_KEY:", bool(os.getenv("OPENAI_API_KEY")))
 
 
 # Initialize OpenAI clients
-client = OpenAI()
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
 
 
