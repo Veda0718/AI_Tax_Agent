@@ -7,3 +7,4 @@ PyMuPDF
 pytesseract
 pillow
 reportlab
+gunicorn
