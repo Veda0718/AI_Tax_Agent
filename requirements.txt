@@ -1,0 +1,9 @@
+flask
+langchain
+langchain-openai
+openai
+pdfplumber
+PyMuPDF
+pytesseract
+pillow
+reportlab
