@@ -1,7 +1,8 @@
-# AI Tax Return Agent — Prototype
+# AI Tax Return Agent - Prototype
 
-An end-to-end **AI-powered tax preparation prototype** that automates the ingestion of U.S. tax documents (W-2, 1099-INT, 1099-NEC), extracts key fields using GPT, computes federal tax liability for the 2024 tax year, and generates a simplified **Form 1040 PDF**.  
-This project demonstrates how LLMs, OCR, and deterministic tax logic can streamline accounting workflows.
+An end-to-end **AI-powered tax preparation prototype** that automates the ingestion of U.S. tax documents (W-2, 1099-INT, 1099-NEC), extracts key fields using GPT, computes federal tax liability for the 2024 tax year, and generates a simplified **Form 1040 PDF**. This project demonstrates how LLMs, OCR, and deterministic tax logic can streamline accounting workflows.
+
+The prototype is currently deployed and accessible here: https://ai-tax-agent-g5ad.onrender.com
 
 ## Features
 - **Upload multiple tax PDFs**
